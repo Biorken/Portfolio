@@ -102,7 +102,7 @@ SET SoldAsVacant =  CASE WHEN SoldAsVacant = 'Y' THEN 'Yes'
 FROM portfolioproject.dbo.NashvilleHousing;
 
 
---REMOVE DUPLICATEROWS
+--REMOVE DUPLICATE ROWS
 
 WITH Row_NumCTE AS(
 SELECT *, 
